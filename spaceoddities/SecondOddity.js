@@ -1,4 +1,4 @@
 export default {
   header: "Explore this phenomenon!",
-  view: "Second Oddity"
+  view: "SecondOddity"
 };
