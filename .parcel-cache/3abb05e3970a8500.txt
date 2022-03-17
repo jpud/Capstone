@@ -54,7 +54,7 @@
 92C:\Users\jakep\code\SavvyCoders\Capstone\node_modules\@parcel\utils\src\isDirectoryInside.js132905720856589495 0
 71C:\Users\jakep\code\SavvyCoders\Capstone\node_modules\lodash\valueOf.js132907477294671472 0
 93C:\Users\jakep\code\SavvyCoders\Capstone\node_modules\htmlparser2\lib\WritableStream.d.ts.map132905720847603530 0
-51C:\Users\jakep\code\SavvyCoders\Capstone\.gitignore132906663779183453 0
+51C:\Users\jakep\code\SavvyCoders\Capstone\.gitignore132917675722374839 0
 85C:\Users\jakep\code\SavvyCoders\Capstone\node_modules\source-map-js\lib\quick-sort.js132905720845469231 0
 53C:\Users\jakep\code\SavvyCoders\Capstone\package.json132907477295379580 0
 138C:\Users\jakep\code\SavvyCoders\Capstone\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-exclude\main.js132905720855183262 0
@@ -7018,7 +7018,7 @@
 61C:\Users\jakep\code\SavvyCoders\Capstone\components\Footer.js132911619706138162 0
 61C:\Users\jakep\code\SavvyCoders\Capstone\components\Header.js132911612768364956 0
 59C:\Users\jakep\code\SavvyCoders\Capstone\components\Main.js132907458370675253 0
-58C:\Users\jakep\code\SavvyCoders\Capstone\components\Nav.js132917666630839852 0
+58C:\Users\jakep\code\SavvyCoders\Capstone\components\Nav.js132917673904251823 0
 73C:\Users\jakep\code\SavvyCoders\Capstone\components\views\FourthOddity.js132917662723198646 0
 73C:\Users\jakep\code\SavvyCoders\Capstone\components\views\SecondOddity.js132917662647922052 0
 72C:\Users\jakep\code\SavvyCoders\Capstone\components\views\ThirdOddity.js132917662691730668 0
