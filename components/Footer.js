@@ -1,4 +1,2 @@
 import html from "html-literal";
-export default () => html`
-  <footer></footer>
-`;
+export default () => html``;
