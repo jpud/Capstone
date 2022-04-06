@@ -1,3 +1,8 @@
+html{
+  background-color: black;
+}
+
+
 #homeSpace {
   background: url(assets\img\17520.webp) center center no-repeat;  background-size: cover;
   display: flex;
@@ -6,6 +11,8 @@
   align-items: center;
   height: 90vh;
 }
+
+
 #homeSpace > h1 {
   color: white;
   text-align: center;
@@ -26,7 +33,7 @@
 }
 
 form {
-  border: solid 1px black;
+  border: solid 1px white;
   display: flex;
   flex-direction: column;
   margin: 1rem 1rem;
@@ -46,10 +53,27 @@ form > input[type="submit"] {
 
 #bio {
   margin: 5rem;
+  display: flex;
+  border:solid 2px white;
+  justify-content: space-evenly;
+}
+#bio > h2{
+  color: white;
+  display: flex;
+  border: solid 2px white;
+  border: solid 5px black;
+}
+#bio > p{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  border: solid 15px black;
 }
 
+
+
 #gallery {
-  border: solid 1px black;
+  border: solid 1px white;
   clear: both;
 }
 
@@ -64,13 +88,7 @@ form > input[type="submit"] {
   margin: auto;
 }
 
-#pizzas {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  height: auto;
-  width: 92.5%;
-  margin: auto;
-}
+
 
 #pizzas tbody {
   width: 100%;
@@ -93,13 +111,13 @@ form > input[type="submit"] {
     display: -ms-inline-flexbox;
     align-items: center;
     flex-direction: column;
-    color: black;
+    color: white;
   }
 
   nav > i {
     padding: 20rem;
     font-size: 2em;
-    color: black;
+    color: white;
   }
 
   nav > ul {
@@ -107,13 +125,13 @@ form > input[type="submit"] {
     align-items: center;
     flex-direction: column;
     padding: 0 0;
-    color: black;
+    color: white;
   }
 
   nav > ul > li {
     padding: 0.5rem;
     list-style-type: none;
-    color: black;
+    color: white;
   }
 
   #bio img {
@@ -133,7 +151,7 @@ form > input[type="submit"] {
 @media (min-width: 550px) {
   nav > ul {
     display: flex;
-    color: black;
+    color: white;
     justify-content: space-evenly;
     padding: 0 0;
   }
@@ -144,7 +162,7 @@ form > input[type="submit"] {
     border: 2px solid;
     padding: 0.5rem 0.5rem;
     border-radius: 25px;
-    color: black;
+    color: white;
   }
 
   nav > .fa-bars {
@@ -168,4 +186,23 @@ form > input[type="submit"] {
     grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
     background-color: black;
   }
+}
+
+#order {
+  background-color: rgb(167, 103, 175);
+  background: url(assets\img\17520.webp) center center no-repeat;  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 90vh;
+}
+#pizzas {
+  background: url(assets\img\17520.webp) center center no-repeat;  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }

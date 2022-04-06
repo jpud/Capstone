@@ -8,7 +8,7 @@ export default st => html`
       formations in the known universe. Get started by clicking the link below,
       or clicking 'Oddities' in the navigation bar above.
     </h4>
-    <a href="" onClick="alert('Hello! You clicked the Button!')"
+    <a href="" onClick="")"
       >Explore Oddities</a
     >
   </section>
