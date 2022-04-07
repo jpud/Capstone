@@ -1,7 +1,12 @@
 import html from "html-literal";
 
 export default () => html`
+
   <section id="order">
+    <img
+      src="https://images.newscientist.com/wp-content/uploads/2018/07/19134120/titan.jpg"
+      alt="me"
+    />
     <form id="order" method="POST" action="">
       <h2>Submit your own oddity</h2>
       <div>

@@ -82,43 +82,31 @@ function addEventListeners(st) {
 }
 
 //  ADD ROUTER HOOKS HERE ...
-// router.hooks({
-//   before: (done, params) => {
-//     const page =
-//       params && params.data && params.data.page
-//         ? capitalize(params.data.page)
-//         : "Home";
+router.hooks({
+  before: (done, params) => {
+    const page =
+      params && params.data && params.data.page
+        ? capitalize(params.data.page)
+        : "Home";
 
-//     if (page === "Home") {
-//       axios
-//         .get(
-//           `https://api.openweathermap.org/data/2.5/weather?q=st.%20louis&appid=${process.env.OPEN_WEATHER_MAP_API_KEY}`
-//         )
-//         .then(response => {
-//           state.Home.weather = {};
-//           state.Home.weather.city = response.data.name;
-//           state.Home.weather.temp = response.data.main.temp;
-//           state.Home.weather.feelsLike = response.data.main.feels_like;
-//           state.Home.weather.description = response.data.weather[0].main;
-//           done();
-//         })
-//         .catch(err => console.log(err));
-//     } else if (page === "Pizza") {
-//       axios
-//         .get(`${process.env.PIZZA_PLACE_API_URL}`)
-//         .then(response => {
-//           console.log(response.data);
-//           state.Pizza.pizzas = response.data;
-//           done();
-//         })
-//         .catch(error => {
-//           console.log("It puked", error);
-//         });
-//     } else {
-//       done();
-//     }
-//   }
-// });
+    if (page === "Home") {
+      axios
+        .get(`https://api.wheretheiss.at/v1/satellites/25544`)
+        .then(response => {
+          state.Home.satellite = {};
+          state.Home.satellite.iss = response.data.name;
+          state.Home.satellite.lat = response.data.latitude;
+          state.Home.satellite.long = response.data.longitude;
+          state.Home.satellite.velo = response.data.velocity;
+          state.Home.satellite.vision = response.data.visibility;
+          done();
+        })
+        .catch(err => console.log(err));
+    } else {
+      done();
+    }
+  }
+});
 
 router
   .on({
