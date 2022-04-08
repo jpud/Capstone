@@ -6,39 +6,38 @@ export default () => html`
       src="https://images.newscientist.com/wp-content/uploads/2018/07/19134120/titan.jpg"
       alt="me"
     />
-    <form id="order" method="POST" action="">
+    <form id="order" action="https://formspree.io/f/xqknykeg" method="POST">
       <h2>Submit your own oddity</h2>
       <div>
         <label for="Type">Type:</label>
         <select id="space" name="Type">
           <option value="">Select a category</option>
-          <option value="thin">Milky Way</option>
-          <option value="chicago">Deep Space</option>
-          <option value="deep-dish">Invention</option>
+          <option value="galaxy">Milky Way</option>
+          <option value="universe">Deep Space</option>
+          <option value="tools">Invention</option>
         </select>
       </div>
       <div>
-        <label for="cheese">Name:</label>
+        <label for="id">Name:</label>
         <input
           type="text"
-          name="cheese"
-          id="cheese"
+          name="id"
+          id="id"
           placeholder="Enter Name"
           required
         />
       </div>
       <div>
-        <label for="sauce">Describe it:</label>
+        <label for="newOdd">Describe it:</label>
         <input
           type="text"
-          name="sauce"
-          id="sauce"
+          name="newOdd"
+          id="newOdd"
           placeholder="Briefly describe your oddity"
           required
         />
       </div>
-      <input type="hidden" name="customer" id="customer" value="Matt T" />
-      <input type="submit" name="submit" value="Submit Oddity" />
+      <button type="submit">Submit Oddity</button>
     </form>
   </section>
 `;
