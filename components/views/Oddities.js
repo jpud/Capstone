@@ -196,4 +196,54 @@ export default () => html`
       of the star's radiation is reflected into space.
     </p>
   </section>
+  <section id="bio">
+    <img
+      src="https://www.nasa.gov/sites/default/files/thumbnails/image/pia22081-opt.jpg"
+      alt="me"
+    />
+    <h2><u>KIC 846285</u></h2>
+    <p>
+      Tabby's Star (also known as Boyajian's Star and WTF Star, and designated
+      KIC 8462852 in the Kepler Input Catalog) is an F-type main-sequence star
+      in the constellation Cygnus approximately 1,470 light-years (450 pc) from
+      Earth. Unusual light fluctuations of the star, including up to a 22%
+      dimming in brightness, were discovered by citizen scientists as part of
+      the Planet Hunters project. In September 2015, astronomers and citizen
+      scientists associated with the project posted a preprint of an article
+      describing the data and possible interpretations. The discovery was made
+      from data collected by the Kepler space telescope, which observed changes
+      in the brightness of distant stars to detect exoplanets. Several
+      hypotheses have been proposed to explain the star's large irregular
+      changes in brightness as measured by its light curve, but none to date
+      fully explain all aspects of the curve. One explanation is that an "uneven
+      ring of dust" orbits Tabby's Star. In another explanation, the star's
+      luminosity is modulated by changes in the efficiency of heat transport to
+      its photosphere, so no external obscuration is required. A third
+      hypothesis, based on a lack of observed infrared light, posits a swarm of
+      cold, dusty comet fragments in a highly eccentric orbit; however, the
+      notion that disturbed comets from such a cloud could exist in high enough
+      numbers to obscure 22% of the star's observed luminosity has been doubted.
+      Another hypothesis is that a large number of small masses in "tight
+      formation" are orbiting the star. Furthermore, spectroscopic study of the
+      system has found no evidence for coalescing material or hot close-in dust
+      or circumstellar matter from an evaporating or exploding planet within a
+      few astronomical units of the mature central star. It has also been
+      hypothesized that the changes in brightness could be signs of activity
+      associated with intelligent extraterrestrial life constructing a Dyson
+      swarm; however, further analysis based on data through the end of 2017
+      showed wavelength-dependent dimming consistent with dust but not an opaque
+      object such as an alien megastructure, which would block all wavelengths
+      of light equally. Tabby's Star is not the only star that has large
+      irregular dimmings, but other such stars include young stellar objects
+      called YSO dippers, which have different dimming patterns. An example of
+      such an object is EPIC 204278916.] New fluctuations ran from mid-May 2017
+      until July 2018, assuming their continuance in late-December 2017 to
+      mid-February 2018 when obscured by the Sun. In September 2019, astronomers
+      reported that the observed dimmings of Tabby's Star may have been produced
+      by fragments resulting from the disruption of an orphaned exomoon. An
+      overall study of other similar stars has been presented. In January 2021,
+      a distant stellar-mass companion was reported, making Tabby's Star a
+      binary stellar system.
+    </p>
+  </section>
 `;

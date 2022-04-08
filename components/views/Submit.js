@@ -1,7 +1,6 @@
 import html from "html-literal";
 
 export default () => html`
-
   <section id="order">
     <img
       src="https://images.newscientist.com/wp-content/uploads/2018/07/19134120/titan.jpg"
@@ -11,7 +10,7 @@ export default () => html`
       <h2>Submit your own oddity</h2>
       <div>
         <label for="Type">Type:</label>
-        <select id="crust" name="Type">
+        <select id="space" name="Type">
           <option value="">Select a category</option>
           <option value="thin">Milky Way</option>
           <option value="chicago">Deep Space</option>
