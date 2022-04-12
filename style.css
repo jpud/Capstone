@@ -55,8 +55,10 @@ html {
 }
 #homeSpace > a {
   text-decoration: underline;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   font-size: 1.5em;
+  border: solid 3px;
+  color:#008cff;
   padding: 1.5rem;
   border-radius: 10px;
   background-image: linear-gradient(#008cff, #fffc2e);
@@ -64,7 +66,7 @@ html {
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: background-size .5s, color .5s;
-  background-color: #000000;
+  background-color: #c3f8ff;
 
   animation: animate linear infinite 5s;
 }
@@ -173,7 +175,7 @@ form > input[type="submit"] {
     display: -ms-inline-flexbox;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: rgb(255, 255, 255);
   }
 
   nav > i {
@@ -193,7 +195,8 @@ form > input[type="submit"] {
   nav > ul > li {
     padding: 0.5rem;
     list-style-type: none;
-    color: white;
+    color: rgb(255, 255, 255);
+
   }
 
   #bio img {
@@ -222,10 +225,10 @@ form > input[type="submit"] {
   nav > ul > li {
     display: -ms-inline-flexbox;
     text-decoration: none;
-    border: 2px solid;
+    border: 3px solid;
     padding: 0.5rem 0.5rem;
     border-radius: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(59, 248, 255);
 
 
 
@@ -281,12 +284,12 @@ form > input[type="submit"] {
 
 
 nav > ul > li {
-  background-image: linear-gradient(#ff2111, #e8ff18);
+  background-image: linear-gradient(#90ff86, #11a803);
   /* background-position: 50% 50%; */
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: background-size .5s, color .5s;
-  background-color: #000000;
+  background-color: #c5fffc;
   animation: animate linear infinite 5s;
 }
 @keyframes animate{
